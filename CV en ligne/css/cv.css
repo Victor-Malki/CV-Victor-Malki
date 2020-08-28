@@ -1,0 +1,82 @@
+.page{
+	width : 780px;
+	margin : auto;
+	font-size : 16px;
+	font-family : 'Source sans pro', Calibri, Tahoma, sans serif;
+	padding-bottom : 60%;
+	padding-right : 40px;
+	padding-left : 40px;
+	border : 5px solid #3388CC;
+	border-radius : 10px;
+	box-shadow : 2px 3px 4px black;
+	background-color : #FFFFFF;
+}
+
+
+.Profil{
+	margin-bottom : 70px;
+	height : 250px;
+}
+
+
+.Photo{
+	float : right;
+	padding-bottom : 30px;
+}
+
+.Texte{
+	margin-left : 10px;
+	padding-bottom : 30px;
+}
+
+.Contact{
+	margin-left : 10px;
+	padding-bottom : 30px;
+}
+
+.Passions{
+	margin-left : 10px;
+}
+
+
+.Compétence{
+	margin-left : 50px;
+}
+
+.Formation{
+	margin-left : 50px;
+}
+
+.Expérience{
+	margin-left : 50px;
+}
+
+.body{
+	background-color : #CCCCCC;
+}
+
+h3{
+	font-size: 22px;
+	color : #3388BB;
+	text-transform : uppercase;
+	border-bottom : 3px solid #3388BB;
+}
+
+strong{
+	font-size : 20px;
+}
+
+.titre{
+	font-weight : bold;
+	font-size : 20px;
+}
+
+@media all and (max-width: 1024px){
+	.page{width : auto;
+		  padding-bottom:1500px}
+	.Compétence{width: auto;
+				margin-bottom: 15px;}
+	.Photo{max-width:100%;}
+	
+}
+
